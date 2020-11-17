@@ -17,11 +17,14 @@
       "description": "A key that overrides all permissions. Keep this secret.",
       "value": "myMasterKey"
     },
+    "DATABASE_URI":{
+        "description": "Enter your MongoDB URL",
+        "value": ""
+    },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
       "value": "http://yourappname.herokuapp.com/parse"
     }
   },
-  "image": "heroku/nodejs",
-  "addons": ["mongolab"]
+  "image": "heroku/nodejs"
 }
